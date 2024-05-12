@@ -2004,6 +2004,441 @@ html.mfp-helper {
 }
 
 /*=======================================================================*/
+/* [ 16. Customer Reviews ]                                                         */
+/*=======================================================================*/
+
+#customer-reviews {
+  margin-top: 140px;
+  padding-top: 30px;
+}
+
+#customer-reviews .content-wrapper {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+#customer-reviews .content-wrapper .description {
+  padding: 34px 30px 35px;
+  margin: 0 auto 84px;
+  text-align: center;
+  color: #999;
+  border-bottom-width: 5px;
+  border-bottom-style: solid;
+  border-bottom-color: rgba(104, 211, 255, 0.25);
+  background-color: rgba(22, 29, 37, 0.5);
+}
+
+#customer-reviews .content-wrapper .description p {
+  line-height: 1.85;
+}
+
+#customer-reviews .content-wrapper .description .name {
+  font-weight: 600;
+  color: #fff;
+}
+
+#customer-reviews .content-wrapper .profile-wrapper {
+  margin-bottom: 75px;
+}
+
+#customer-reviews .content-wrapper .profile-wrapper .profile-picture-wrapper {
+  padding-top: 6px;
+}
+
+#customer-reviews .content-wrapper .profile-wrapper .profile-picture-wrapper .profile-picture {
+  position: relative;
+}
+
+#customer-reviews .content-wrapper .profile-wrapper .profile-picture-wrapper .profile-picture img {
+  width: 100%;
+  max-width: 100%;
+}
+
+#customer-reviews .content-wrapper .profile-wrapper .general-info .grouping-info-wrapper {
+  margin-bottom: 45px;
+}
+
+#customer-reviews .content-wrapper .profile-wrapper .general-info .grouping-info-wrapper ul.single-basic-info li {
+  margin-bottom: 18px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 1.3;
+}
+
+#customer-reviews .content-wrapper .profile-wrapper .general-info .grouping-info-wrapper ul.single-basic-info .label {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+  -moz-box-align: baseline;
+  -ms-flex-align: baseline;
+  -webkit-align-items: baseline;
+  align-items: baseline;
+}
+
+#customer-reviews .content-wrapper .profile-wrapper .general-info .grouping-info-wrapper ul.single-basic-info .label i {
+  margin-right: 5px;
+  color: #68d3ff;
+}
+
+#customer-reviews .content-wrapper .profile-wrapper .general-info .grouping-info-wrapper ul.single-basic-info .dash {
+  margin-left: 5px;
+  margin-right: 3px;
+}
+
+#customer-reviews .content-wrapper .profile-wrapper .general-info .grouping-info-wrapper ul.single-basic-info .value {
+  word-wrap: break-word;
+  -ms-word-break: break-all;
+  word-break: break-all;
+  word-break: break-word;
+  overflow: hidden;
+  color: #999;
+}
+
+#customer-reviews .content-wrapper .profile-wrapper .general-info .grouping-info-wrapper .button-wrapper {
+  margin-top: 22px;
+}
+
+#customer-reviews .content-wrapper .profile-wrapper .general-info .grouping-info-wrapper .button-wrapper a {
+  display: inline-block;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  width: 220px;
+  background-color: #fff;
+  padding: 13px 15px;
+  text-align: center;
+  -webkit-transition: 0.4s ease-in-out;
+  -moz-transition: 0.4s ease-in-out;
+  -o-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+  cursor: pointer;
+  color: #0d1118;
+}
+
+#customer-reviews .content-wrapper .profile-wrapper .general-info .grouping-info-wrapper .button-wrapper a:not(:last-of-type) {
+  margin-right: 10px;
+}
+
+#customer-reviews .content-wrapper .profile-wrapper .general-info .grouping-info-wrapper .button-wrapper a:hover {
+  background-color: #68d3ff;
+}
+
+#customer-reviews .content-wrapper .profile-wrapper .general-info .grouping-info-wrapper .button-wrapper a i {
+  margin-right: 3px;
+}
+
+#customer-reviews .content-wrapper .profile-wrapper .general-info .fun-facts {
+  border-top-width: 5px;
+  border-top-style: solid;
+  border-top-color: rgba(104, 211, 255, 0.25);
+  text-align: center;
+  overflow: hidden;
+  background-color: rgba(22, 29, 37, 0.5);
+  padding: 45px 30px 0;
+}
+
+#customer-reviews .content-wrapper .profile-wrapper .general-info .fun-facts .single-fun-fact {
+  margin-bottom: 40px;
+}
+
+#customer-reviews .content-wrapper .profile-wrapper .general-info .fun-facts .single-fun-fact:nth-child(odd) {
+  padding-right: 15px;
+}
+
+#customer-reviews .content-wrapper .profile-wrapper .general-info .fun-facts .single-fun-fact:nth-child(even) {
+  padding-left: 15px;
+}
+
+#customer-reviews .content-wrapper .profile-wrapper .general-info .fun-facts .single-fun-fact .fun-fact-icon {
+  margin-bottom: 2px;
+  color: #68d3ff;
+}
+
+#customer-reviews .content-wrapper .profile-wrapper .general-info .fun-facts .single-fun-fact .fun-fact-value {
+  font-size: 1.999em;
+  margin-bottom: -1px;
+  color: #999;
+}
+
+#customer-reviews .content-wrapper .profile-wrapper .general-info .fun-facts .single-fun-fact .fun-fact-title {
+  text-transform: uppercase;
+  color: #fff;
+  line-height: 1.35em;
+}
+
+#customer-reviews .content-wrapper .profile-wrapper .general-info .fun-facts .single-fun-fact .fun-fact-title i {
+  margin-right: 1px;
+  color: #68d3ff;
+}
+
+#customer-reviews .content-wrapper .biography-wrapper .skills {
+  margin-bottom: 75px;
+}
+
+#customer-reviews .content-wrapper .biography-wrapper .skills .sub-title {
+  margin-bottom: 35px;
+}
+
+#customer-reviews .content-wrapper .biography-wrapper .skills .grouping-skills {
+  padding: 41px 30px 19px;
+  border-bottom-width: 5px;
+  border-bottom-style: solid;
+  border-bottom-color: rgba(104, 211, 255, 0.25);
+  overflow: hidden;
+  background-color: rgba(22, 29, 37, 0.5);
+}
+
+#customer-reviews .content-wrapper .biography-wrapper .skills .grouping-skills .single-grouping-skill:nth-child(odd) {
+  padding-right: 15px;
+}
+
+#customer-reviews .content-wrapper .biography-wrapper .skills .grouping-skills .single-grouping-skill:nth-child(even) {
+  padding-left: 15px;
+}
+
+#customer-reviews .content-wrapper .biography-wrapper .skills .grouping-skills .single-grouping-skill .single-skill {
+  position: relative;
+  margin-bottom: 26px;
+}
+
+#customer-reviews .content-wrapper .biography-wrapper .skills .grouping-skills .single-grouping-skill .single-skill .skill-name {
+  text-transform: uppercase;
+  margin-bottom: 7px;
+  padding-right: 50px;
+  line-height: 1.35em;
+}
+
+#customer-reviews .content-wrapper .biography-wrapper .skills .grouping-skills .single-grouping-skill .single-skill .skill-name i {
+  margin-right: 1px;
+  color: #68d3ff;
+}
+
+#customer-reviews .content-wrapper .biography-wrapper .skills .grouping-skills .single-grouping-skill .single-skill .percentage {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #999;
+  line-height: 1.35em;
+}
+
+#customer-reviews .content-wrapper .biography-wrapper .skills .grouping-skills .single-grouping-skill .single-skill .percentage:after {
+  content: "%";
+}
+
+#customer-reviews .content-wrapper .biography-wrapper .skills .grouping-skills .single-grouping-skill .single-skill .progress-wrapper {
+  height: 6px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #fff;
+}
+
+#customer-reviews .content-wrapper .biography-wrapper .skills .grouping-skills .single-grouping-skill .single-skill .progress-wrapper .progress {
+  width: 0;
+  height: 100%;
+  display: block;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  position: relative;
+  overflow: initial;
+  background-color: #68d3ff;
+}
+
+#customer-reviews .content-wrapper .biography-wrapper .skills .grouping-skills .single-grouping-skill .single-skill .progress-wrapper .progress:after {
+  content: "";
+  width: 18px;
+  height: 18px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #68d3ff;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: -9px;
+  background-color: #fff;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+#customer-reviews .content-wrapper .biography-wrapper .education, #customer-reviews .content-wrapper .biography-wrapper .work-experience {
+  margin-bottom: 75px;
+}
+
+#customer-reviews .content-wrapper .biography-wrapper .education .sub-title, #customer-reviews .content-wrapper .biography-wrapper .work-experience .sub-title {
+  margin-bottom: 30px;
+}
+
+#customer-reviews .content-wrapper .biography-wrapper .education ul.timeline>li.single-education, #customer-reviews .content-wrapper .biography-wrapper .work-experience ul.timeline>li.single-work-experience {
+  position: relative;
+}
+
+#customer-reviews .content-wrapper .biography-wrapper .education ul.timeline>li.single-education:before, #customer-reviews .content-wrapper .biography-wrapper .work-experience ul.timeline>li.single-work-experience:before {
+  content: "";
+  background-color: #aaa;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  width: 2px;
+  height: 100%;
+}
+
+#customer-reviews .content-wrapper .biography-wrapper .education ul.timeline>li.single-education:nth-child(odd), #customer-reviews .content-wrapper .biography-wrapper .work-experience ul.timeline>li.single-work-experience:nth-child(odd) {
+  padding-right: 7px;
+}
+
+#customer-reviews .content-wrapper .biography-wrapper .education ul.timeline>li.single-education:nth-child(odd):before, #customer-reviews .content-wrapper .biography-wrapper .work-experience ul.timeline>li.single-work-experience:nth-child(odd):before {
+  left: 8px;
+}
+
+#customer-reviews .content-wrapper .biography-wrapper .education ul.timeline>li.single-education:nth-child(even), #customer-reviews .content-wrapper .biography-wrapper .work-experience ul.timeline>li.single-work-experience:nth-child(even) {
+  padding-left: 15px;
+}
+
+#customer-reviews .content-wrapper .biography-wrapper .education ul.timeline>li.single-education:nth-child(even):before, #customer-reviews .content-wrapper .biography-wrapper .work-experience ul.timeline>li.single-work-experience:nth-child(even):before {
+  left: 23px;
+}
+
+#customer-reviews .content-wrapper .biography-wrapper .education ul.timeline>li.single-education:after, #customer-reviews .content-wrapper .biography-wrapper .work-experience ul.timeline>li.single-work-experience:after {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background-color: #fff;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #68d3ff;
+  top: 0;
+  position: absolute;
+}
+
+#customer-reviews .content-wrapper .biography-wrapper .education ul.timeline>li.single-education:nth-child(odd):after, #customer-reviews .content-wrapper .biography-wrapper .work-experience ul.timeline>li.single-work-experience:nth-child(odd):after {
+  left: 0;
+}
+
+#customer-reviews .content-wrapper .biography-wrapper .education ul.timeline>li.single-education:nth-child(even):after, #customer-reviews .content-wrapper .biography-wrapper .work-experience ul.timeline>li.single-work-experience:nth-child(even):after {
+  left: 15px;
+}
+
+#customer-reviews .content-wrapper .biography-wrapper .education ul.timeline>li.single-education p, #customer-reviews .content-wrapper .biography-wrapper .work-experience ul.timeline>li.single-work-experience p {
+  margin-left: 39px;
+}
+
+#customer-reviews .content-wrapper .biography-wrapper .education ul.timeline>li.single-education .name, #customer-reviews .content-wrapper .biography-wrapper .work-experience ul.timeline>li.single-work-experience .name {
+  text-transform: uppercase;
+  margin-bottom: 9px;
+  font-weight: 500;
+  line-height: 1.35em;
+  color: #fff;
+}
+
+#customer-reviews .content-wrapper .biography-wrapper .education ul.timeline>li.single-education .date, #customer-reviews .content-wrapper .biography-wrapper .work-experience ul.timeline>li.single-work-experience .date {
+  font-size: 0.85em;
+  margin-bottom: 20px;
+  display: inline-block;
+  padding: 2px 9px;
+  color: #68d3ff;
+  background-color: #20293a;
+}
+
+#customer-reviews .content-wrapper .biography-wrapper .education ul.timeline>li.single-education .body, #customer-reviews .content-wrapper .biography-wrapper .work-experience ul.timeline>li.single-work-experience .body {
+  margin-bottom: 32px;
+  color: #999;
+  display: none;
+}
+
+#customer-reviews .content-wrapper .biography-wrapper .interests-and-hobbies .sub-title {
+  margin-bottom: 34px;
+}
+
+#customer-reviews .content-wrapper .biography-wrapper .interests-and-hobbies .grouping-interests-and-hobbies {
+  padding: 45px 30px 0;
+  border-top-width: 5px;
+  border-top-style: solid;
+  border-top-color: rgba(104, 211, 255, 0.25);
+  overflow: hidden;
+  background-color: rgba(22, 29, 37, 0.5);
+}
+
+#customer-reviews .content-wrapper .biography-wrapper .interests-and-hobbies .grouping-interests-and-hobbies .single-interest-and-hobby {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#customer-reviews .content-wrapper .biography-wrapper .interests-and-hobbies .grouping-interests-and-hobbies .single-interest-and-hobby:nth-child(3n+1) {
+  padding-right: 15px;
+}
+
+#customer-reviews .content-wrapper .biography-wrapper .interests-and-hobbies .grouping-interests-and-hobbies .single-interest-and-hobby:nth-child(3n+2) {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#customer-reviews .content-wrapper .biography-wrapper .interests-and-hobbies .grouping-interests-and-hobbies .single-interest-and-hobby:nth-child(3n+3) {
+  padding-left: 15px;
+}
+
+#customer-reviews .content-wrapper .biography-wrapper .interests-and-hobbies .grouping-interests-and-hobbies .single-interest-and-hobby .icon {
+  margin-bottom: 13px;
+  color: #68d3ff;
+}
+
+#customer-reviews .content-wrapper .biography-wrapper .interests-and-hobbies .grouping-interests-and-hobbies .single-interest-and-hobby .name {
+  line-height: 1.35em;
+  text-transform: uppercase;
+}
+
+#customer-reviews .content-wrapper .biography-wrapper .interests-and-hobbies .grouping-interests-and-hobbies .single-interest-and-hobby .name i {
+  margin-right: 1px;
+  color: #68d3ff;
+}
+
+#customer-reviews .single-work-experience .name-container {
+  display: flex;
+  align-items: center;
+}
+
+#customer-reviews .single-work-experience .name-container button {
+  margin-left: 10px;
+  border: none;
+  background-color: #68d3fe;
+  color: white;
+  margin-bottom: 9px;
+  line-height: 1.35em;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+}
+
+#customer-reviews .single-work-experience .name-container button:hover {
+  background-color: #438ead;
+}
+
+#customer-reviews .single-work-experience .name-container button.active:before {
+  content: '-'
+}
+
+#customer-reviews .single-work-experience .name-container button:before {
+  content: '+'
+}
+
+/*=======================================================================*/
 /* [ 15. Responsive Design Styles ]                                      */
 /*=======================================================================*/
 
@@ -2121,6 +2556,60 @@ html.mfp-helper {
   }
 
   #about .content-wrapper .biography-wrapper .interests-and-hobbies .sub-title {
+    margin-bottom: 35px;
+  }
+
+  #customer-reviews {
+    margin-top: 96px;
+  }
+
+  #customer-reviews .content-wrapper .description {
+    padding-top: 35px;
+    padding-bottom: 36px;
+  }
+
+  #customer-reviews .content-wrapper .profile-wrapper {
+    margin-bottom: 77px;
+  }
+
+  #customer-reviews .content-wrapper .profile-wrapper .profile-picture-wrapper {
+    margin-bottom: 39px;
+  }
+
+  #customer-reviews .content-wrapper .biography-wrapper .skills {
+    margin-bottom: 77px;
+  }
+
+  #customer-reviews .content-wrapper .biography-wrapper .education, #customer-reviews .content-wrapper .biography-wrapper .work-experience {
+    margin-bottom: 77px;
+  }
+
+  #customer-reviews .content-wrapper .biography-wrapper .education .sub-title, #customer-reviews .content-wrapper .biography-wrapper .work-experience .sub-title {
+    margin-bottom: 31px;
+  }
+
+  #customer-reviews .content-wrapper .biography-wrapper .education ul.timeline>li.single-education:nth-child(odd), #customer-reviews .content-wrapper .biography-wrapper .work-experience ul.timeline>li.single-work-experience:nth-child(odd) {
+    padding-right: 0;
+  }
+
+  #customer-reviews .content-wrapper .biography-wrapper .education ul.timeline>li.single-education:nth-child(even), #customer-reviews .content-wrapper .biography-wrapper .work-experience ul.timeline>li.single-work-experience:nth-child(even) {
+    padding-left: 0;
+  }
+
+  #customer-reviews .content-wrapper .biography-wrapper .education ul.timeline>li.single-education:nth-child(even):before, #customer-reviews .content-wrapper .biography-wrapper .work-experience ul.timeline>li.single-work-experience:nth-child(even):before {
+    left: 8px;
+  }
+
+  #customer-reviews .content-wrapper .biography-wrapper .education ul.timeline>li.single-education:nth-child(even):after, #customer-reviews .content-wrapper .biography-wrapper .work-experience ul.timeline>li.single-work-experience:nth-child(even):after {
+    left: 0;
+  }
+
+  #customer-reviews .content-wrapper .biography-wrapper .education ul.timeline>li.single-education .body, #customer-reviews .content-wrapper .biography-wrapper .work-experience ul.timeline>li.single-work-experience .body {
+    margin-bottom: 33px;
+    display: none;
+  }
+
+  #customer-reviews .content-wrapper .biography-wrapper .interests-and-hobbies .sub-title {
     margin-bottom: 35px;
   }
 
@@ -2329,6 +2818,10 @@ html.mfp-helper {
     margin-top: 99px;
   }
 
+  #customer-reviews {
+    margin-top: 99px;
+  }
+
   #header .banner {
     height: -webkit-calc(100% - 120px);
     height: -moz-calc(100% - 120px);
@@ -2383,6 +2876,53 @@ html.mfp-helper {
   }
 
   #about .content-wrapper .biography-wrapper .interests-and-hobbies .grouping-interests-and-hobbies .single-interest-and-hobby:nth-child(even) {
+    padding-left: 15px;
+  }
+
+  #customer-reviews .content-wrapper .profile-wrapper {
+    margin-bottom: 78px;
+  }
+
+  #customer-reviews .content-wrapper .biography-wrapper .skills {
+    margin-bottom: 78px;
+  }
+
+  #customer-reviews .content-wrapper .biography-wrapper .skills .sub-title {
+    margin-bottom: 37px;
+  }
+
+  #customer-reviews .content-wrapper .biography-wrapper .skills .grouping-skills .single-grouping-skill:nth-child(odd) {
+    padding-right: 0;
+  }
+
+  #customer-reviews .content-wrapper .biography-wrapper .skills .grouping-skills .single-grouping-skill:nth-child(even) {
+    padding-left: 0;
+  }
+
+  #customer-reviews .content-wrapper .biography-wrapper .education, #customer-reviews .content-wrapper .biography-wrapper .work-experience {
+    margin-bottom: 78px;
+  }
+
+  #customer-reviews .content-wrapper .biography-wrapper .education .sub-title, #customer-reviews .content-wrapper .biography-wrapper .work-experience .sub-title {
+    margin-bottom: 33px;
+  }
+
+  #customer-reviews .content-wrapper .biography-wrapper .interests-and-hobbies .sub-title {
+    margin-bottom: 37px;
+  }
+
+  #customer-reviews .content-wrapper .biography-wrapper .interests-and-hobbies .grouping-interests-and-hobbies .single-interest-and-hobby:nth-child(3n+1),
+  #customer-reviews .content-wrapper .biography-wrapper .interests-and-hobbies .grouping-interests-and-hobbies .single-interest-and-hobby:nth-child(3n+2),
+  #customer-reviews .content-wrapper .biography-wrapper .interests-and-hobbies .grouping-interests-and-hobbies .single-interest-and-hobby:nth-child(3n+3) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #customer-reviews .content-wrapper .biography-wrapper .interests-and-hobbies .grouping-interests-and-hobbies .single-interest-and-hobby:nth-child(odd) {
+    padding-right: 15px;
+  }
+
+  #customer-reviews .content-wrapper .biography-wrapper .interests-and-hobbies .grouping-interests-and-hobbies .single-interest-and-hobby:nth-child(even) {
     padding-left: 15px;
   }
 
@@ -2609,7 +3149,7 @@ html.mfp-helper {
 
   #about .content-wrapper .description {
     margin-bottom: 75px;
-    padding-left: : 20px;
+    padding-left: 20px;
     padding-right: 20px;
   }
 
@@ -2625,8 +3165,36 @@ html.mfp-helper {
     padding-left: 15px !important;
   }
 
+  #customer-reviews {
+    margin-top: 79px;
+  }
+
+  #customer-reviews .content-wrapper {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  #customer-reviews .content-wrapper .description {
+    margin-bottom: 75px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  #customer-reviews .content-wrapper .profile-wrapper {
+    margin-bottom: 68px;
+  }
+
+  #customer-reviews .content-wrapper .profile-wrapper .general-info .grouping-info-wrapper .single-basic-info:nth-child(odd) {
+    padding-right: 15px !important;
+  }
+
+  #customer-reviews .content-wrapper .profile-wrapper .general-info .grouping-info-wrapper .single-basic-info:nth-child(even) {
+    padding-left: 15px !important;
+  }
+
   .project-popup .project-detail .button-wrapper a.visit-project,
   #about .content-wrapper .profile-wrapper .general-info .grouping-info-wrapper .button-wrapper a,
+  #customer-reviews .content-wrapper .profile-wrapper .general-info .grouping-info-wrapper .button-wrapper a,
   #services .content-wrapper .service-offer .contact-button,
   #contact .content-wrapper .contact-form .grouping-contact-form form button[type="submit"], #contact .content-wrapper .contact-form .grouping-contact-form form input[type="submit"] {
     display: block;
@@ -2680,6 +3248,55 @@ html.mfp-helper {
   }
 
   #about .content-wrapper .biography-wrapper .interests-and-hobbies .grouping-interests-and-hobbies .single-interest-and-hobby:nth-child(even) {
+    padding-left: 10px;
+  }
+
+  #customer-reviews .content-wrapper .profile-wrapper .general-info .grouping-info-wrapper .button-wrapper a:not(:last-of-type) {
+    margin-right: 0;
+    margin-bottom: 15px;
+  }
+
+  #customer-reviews .content-wrapper .profile-wrapper .general-info .fun-facts {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  #customer-reviews .content-wrapper .profile-wrapper .general-info .fun-facts .single-fun-fact:nth-child(odd) {
+    padding-right: 10px;
+  }
+
+  #customer-reviews .content-wrapper .profile-wrapper .general-info .fun-facts .single-fun-fact:nth-child(even) {
+    padding-left: 10px;
+  }
+
+  #customer-reviews .content-wrapper .biography-wrapper .skills {
+    margin-bottom: 68px;
+  }
+
+  #customer-reviews .content-wrapper .biography-wrapper .skills .grouping-skills {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  #customer-reviews .content-wrapper .biography-wrapper .education, #customer-reviews .content-wrapper .biography-wrapper .work-experience {
+    margin-bottom: 68px;
+  }
+
+  #customer-reviews .content-wrapper .biography-wrapper .education ul.timeline>li.single-education p, #customer-reviews .content-wrapper .biography-wrapper .work-experience ul.timeline>li.single-work-experience p {
+    margin-left: 29px;
+
+  }
+
+  #customer-reviews .content-wrapper .biography-wrapper .interests-and-hobbies .grouping-interests-and-hobbies {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  #customer-reviews .content-wrapper .biography-wrapper .interests-and-hobbies .grouping-interests-and-hobbies .single-interest-and-hobby:nth-child(odd) {
+    padding-right: 10px;
+  }
+
+  #customer-reviews .content-wrapper .biography-wrapper .interests-and-hobbies .grouping-interests-and-hobbies .single-interest-and-hobby:nth-child(even) {
     padding-left: 10px;
   }
 
@@ -2764,6 +3381,21 @@ html.mfp-helper {
     padding-left: 0;
   }
 
+
+  #customer-reviews .content-wrapper .profile-wrapper .general-info .fun-facts .single-fun-fact {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  #customer-reviews .content-wrapper .profile-wrapper .general-info .fun-facts .single-fun-fact:nth-child(odd) {
+    padding-right: 0;
+  }
+
+  #customer-reviews .content-wrapper .profile-wrapper .general-info .fun-facts .single-fun-fact:nth-child(even) {
+    padding-left: 0;
+  }
+
   #services .content-wrapper .service-offer p {
     font-size: 1.354em;
   }
@@ -2835,6 +3467,20 @@ html.mfp-helper {
   }
 
   #about .content-wrapper .biography-wrapper .interests-and-hobbies .grouping-interests-and-hobbies .single-interest-and-hobby:nth-child(even) {
+    padding-left: 0;
+  }
+
+  #customer-reviews .content-wrapper .biography-wrapper .interests-and-hobbies .grouping-interests-and-hobbies .single-interest-and-hobby {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  #customer-reviews .content-wrapper .biography-wrapper .interests-and-hobbies .grouping-interests-and-hobbies .single-interest-and-hobby:nth-child(odd) {
+    padding-right: 0;
+  }
+
+  #customer-reviews .content-wrapper .biography-wrapper .interests-and-hobbies .grouping-interests-and-hobbies .single-interest-and-hobby:nth-child(even) {
     padding-left: 0;
   }
 }

@@ -156,7 +156,7 @@
 		});
 	};
 
-	// Use OnePageNav 
+	// Use OnePageNav
 	moive.useOnePageNav = function() {
 		$("#menu-overlay").onePageNav({
 			currentClass: "active",
@@ -231,7 +231,7 @@
 			}, 6000);
 		};
 
-		// Form On Submit 
+		// Form On Submit
 		form.on('submit', function(e) {
 			e.preventDefault();
 			formData = $(this).serialize();
@@ -244,6 +244,24 @@
 				.fail(failFunc);
 		});
 	};
+
+	// Add Accordion On Reviews Section
+	moive.addAccordionOnReviews = function () {
+		let acc = document.getElementsByClassName("reviews-accordion");
+		let i;
+
+		for (i = 0; i < acc.length; i++) {
+			acc[i].addEventListener("click", function() {
+				this.classList.toggle("active");
+				const panel = this.parentElement?.nextElementSibling?.nextElementSibling;
+				if (panel.style.display === "block") {
+					panel.style.display = "none";
+				} else {
+					panel.style.display = "block";
+				}
+			});
+		}
+	}
 
 	// Contact Button On Click
 	$(".contact-button").on("click", function(e) {
@@ -321,5 +339,6 @@
 		moive.useOnePageNav();
 		moive.useMagnificPopup();
 		moive.processContactForm();
+		moive.addAccordionOnReviews();
 	});
 })(jQuery);
